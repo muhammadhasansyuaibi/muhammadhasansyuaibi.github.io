@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/HASBY CL 86.jpg"
+      type="image/x-icon"
+    />
+
+    <!--=============== REMIX ICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Hasby Portfolio</title>
+  </head>
+  <body>
+    <!--=============== HEADER PROFILE ===============-->
+    <header class="profile container">
+      <!-- theme button -->
+      <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+      <div class="profile__container grid">
+        <div class="profile__data">
+          <div class="profile__border">
+            <div class="profile__perfil">
+              <img src="assets/img/HASBY CL 86.png" alt="profile perfil" />
+            </div>
+          </div>
+
+          <h2 class="profile__name">Muhammad Hasan Syu'aibi</h2>
+          <h2 class="profile__profession">Informatics Engineering</h2>
+
+          <ul class="profile__social">
+            <a
+              href="https://www.instagram.com/hass.by_/"
+              target="_blank"
+              class="profile__social-link"
+            >
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a
+              href="https://www.youtube.com/channel/UCjCSwiAVK_OSAE_J3Jh7zGw"
+              target="_blank"
+              class="profile__social-link"
+            >
+              <i class="ri-youtube-line"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/muhammad-hasan-syu-aibi-4080221bb/"
+              target="_blank"
+              class="profile__social-link"
+            >
+              <i class="ri-linkedin-box-line"></i>
+            </a>
+            <a
+              href="https://github.com/muhammadhasansyuaibi"
+              target="_blank"
+              class="profile__social-link"
+            >
+              <i class="ri-github-line"></i>
+            </a>
+          </ul>
+        </div>
+
+        <div class="profile__info grid">
+          <div class="profile__info-group">
+            <h3 class="profile__info-number">2</h3>
+            <p class="profile__info-description">
+              Years of <br />
+              work
+            </p>
+          </div>
+          <div class="profile__info-group">
+            <h3 class="profile__info-number">+10</h3>
+            <p class="profile__info-description">
+              Completed <br />
+              projects
+            </p>
+          </div>
+          <div class="profile__info-group">
+            <h3 class="profile__info-number">15+</h3>
+            <p class="profile__info-description">
+              Satisfied <br />
+              Customers
+            </p>
+          </div>
+        </div>
+
+        <div class="profile__buttons">
+          <a
+            download="MuhammadHasanSyuaibi-Cv.pdf"
+            href="assets/pdf/MuhammadHasanSyuaibi-Cv.pdf"
+            class="button"
+            >Download CV <i class="ri-download-line"></i
+          ></a>
+
+          <div class="profile__buttons-small">
+            <a
+              href="https://api.whatsapp.com/send/?phone=6283111963381&text&type=phone_number&app_absent=0"
+              target="_blank"
+              class="button button__small button__gray"
+              ><i class="ri-whatsapp-line"></i
+            ></a>
+            <a href="" target="_blank" class="button button__small button__gray"
+              ><i class="ri-mail-line"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <section class="filters container">
+        <!--=============== FILTERS TABS ===============-->
+        <ul class="filters__content">
+          <button
+            class="filters__button filter-tab-active"
+            data-target="#projects"
+          >
+            Projects
+          </button>
+
+          <button class="filters__button" data-target="#skills">Skills</button>
+        </ul>
+
+        <div class="filters__sections">
+          <!--=============== PROJECTS ===============-->
+          <div
+            class="projects__content grid filters__active"
+            data-content
+            id="projects"
+          >
+            <article class="projects__card">
+              <img
+                src="assets/img/Sistem Informasi.png"
+                alt=""
+                class="projects__img"
+              />
+              <div class="projects__modal">
+                <div>
+                  <span class="projects__subtitile">Web</span>
+                  <h3 class="projects__title">
+                    Information System Hotel Al-Hasan
+                  </h3>
+                  <a
+                    href="https://youtu.be/tSb0ef1Of5k?si=w2jcnm1b7AdaZAeD"
+                    target="_blank"
+                    class="projects__button button button__small"
+                    ><i class="ri-link"></i
+                  ></a>
+                </div>
+              </div>
+            </article>
+            <article class="projects__card">
+              <img
+                src="assets/img/Freelancer - Magika.png"
+                alt=""
+                class="projects__img"
+              />
+              <div class="projects__modal">
+                <div>
+                  <span class="projects__subtitile">Web</span>
+                  <h3 class="projects__title">Magika Studio - Landing Page</h3>
+                  <a
+                    href="https://www.magika.studio/project/magika-landing-page"
+                    target="_blank"
+                    class="projects__button button button__small"
+                    ><i class="ri-link"></i
+                  ></a>
+                </div>
+              </div>
+            </article>
+            <article class="projects__card">
+              <img src="assets/img/IMK.png" alt="" class="projects__img" />
+              <div class="projects__modal">
+                <div>
+                  <span class="projects__subtitile">UI/UX Design</span>
+                  <h3 class="projects__title">Kuyles Application</h3>
+                  <a
+                    href="https://www.figma.com/file/5eYHirp4cOcKm7TUqjpHGu/Hi-Fidelity-KuyLes-App?type=design&node-id=0%3A1&mode=design&t=u12Kvsup7vqINF70-1"
+                    target="_blank"
+                    class="projects__button button button__small"
+                    ><i class="ri-link"></i
+                  ></a>
+                </div>
+              </div>
+            </article>
+            <article class="projects__card">
+              <img src="assets/img/Mebiso.png" alt="" class="projects__img" />
+              <div class="projects__modal">
+                <div>
+                  <span class="projects__subtitile">Web</span>
+                  <h3 class="projects__title">Mebiso - Landing Page</h3>
+                  <a
+                    href="https://mebiso.com/"
+                    target="_blank"
+                    class="projects__button button button__small"
+                    ><i class="ri-link"></i
+                  ></a>
+                </div>
+              </div>
+            </article>
+            <article class="projects__card">
+              <img src="assets/img/Skripsi.png" alt="" class="projects__img" />
+              <div class="projects__modal">
+                <div>
+                  <span class="projects__subtitile">Mobile</span>
+                  <h3 class="projects__title">
+                    Military Defence - Skripsi Project
+                  </h3>
+                  <a
+                    href="https://youtu.be/oz8KIlGPc7g?si=RlWIbmlVXfDkTNea"
+                    target="_blank"
+                    class="projects__button button button__small"
+                    ><i class="ri-link"></i
+                  ></a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!--=============== SKILLS ===============-->
+          <div class="skills__content grid" data-content id="skills">
+            <div class="skills__area">
+              <h3 class="skills__title">Soft Skills</h3>
+
+              <div class="skills__box">
+                <div class="skills__group">
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">Leadership</h3>
+                      <span class="skills__level">Basic</span>
+                    </div>
+                  </div>
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">Teamwork</h3>
+                      <span class="skills__level">Basic</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="skills__group">
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">Communication</h3>
+                      <span class="skills__level">Basic</span>
+                    </div>
+                  </div>
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">Problem-Solving</h3>
+                      <span class="skills__level">Basic</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="skills__area">
+              <h3 class="skills__title">Hard Skills</h3>
+
+              <div class="skills__box">
+                <div class="skills__group">
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">Ms Office</h3>
+                      <span class="skills__level">Basic</span>
+                    </div>
+                  </div>
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">Adobe Premier</h3>
+                      <span class="skills__level">Basic</span>
+                    </div>
+                  </div>
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">Figma</h3>
+                      <span class="skills__level">Basic</span>
+                    </div>
+                  </div>
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">CSS</h3>
+                      <span class="skills__level">Basic</span>
+                    </div>
+                  </div>
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">Tailwind</h3>
+                      <span class="skills__level">Basic</span>
+                    </div>
+                  </div>
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">MySQL</h3>
+                      <span class="skills__level">Basic</span>
+                    </div>
+                  </div>
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">Software Installation</h3>
+                      <span class="skills__level">Basic</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="skills__group">
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">Corel Draw</h3>
+                      <span class="skills__level">Basic</span>
+                    </div>
+                  </div>
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">Photoshop</h3>
+                      <span class="skills__level">Basic</span>
+                    </div>
+                  </div>
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">HTML</h3>
+                      <span class="skills__level">Basic</span>
+                    </div>
+                  </div>
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">Javascript</h3>
+                      <span class="skills__level">Basic</span>
+                    </div>
+                  </div>
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">Bootstrap</h3>
+                      <span class="skills__level">Basic</span>
+                    </div>
+                  </div>
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">PHP</h3>
+                      <span class="skills__level">Basic</span>
+                    </div>
+                  </div>
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">Troubleshooting Computer</h3>
+                      <span class="skills__level">Basic</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer container">
+      <span class="footer__copy"> &#169; Muhammad Hasan Syu'aibi - 2023 </span>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
